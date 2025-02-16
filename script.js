@@ -11,7 +11,7 @@ loveButton.addEventListener('click', () => {
     greeting.classList.add('show');
 
     // Buat balon love
-    const colors = ['#0000FF,'#00FFFF,'##006400,'#FFD700','#ff000','#ff6f61', '#ffcc00', '#00ccff', '#ff00cc', '#00ff99'];
+    const colors = ['#0000FF', '#00FFFF', '#006400', '#FFD700', '#ff0000', '#ff6f61', '#ffcc00', '#00ccff', '#ff00cc', '#00ff99'];
     for (let i = 0; i < 30; i++) {
         const balloon = document.createElement('div');
         balloon.classList.add('balloon');
